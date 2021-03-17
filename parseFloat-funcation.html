@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Type Casting | parseFloat Funcation</title>
+</head>
+<body>
+
+	<h2>
+		Explict Type Casting | parseFloat Funcation
+	</h2>
+	<h4>
+		parseFloat Funcation with Floating Numbers
+	</h4>
+
+	<code>
+		document.write(21+22.00);  //43
+		<br />
+		<br />
+		document.write(3.142);	//3.142
+		<br />
+		<br />
+		document.write(12.22 + 5.3);	//17.52
+		<br />
+		<br />
+		document.write(12.00 + 5.00);	//17.00
+		<br />
+		<br />
+		document.write(parseFloat(12.00 + 5));	//17.00
+		<br />
+		<br />
+		document.write(parseFloat(10.00 + 5));	//15.00
+		<br />
+		<br />
+		document.write(parseFloat(12 + 12));	//24
+		<br />
+		<br />
+		document.write(parseFloat("sometext3.142"));	//NaN
+		<br />
+		<br />
+		document.write(parseFloat("12.5 + 12.3"));	//12.5
+		<br />
+		<br />
+
+		document.write(parseFloat("10.5 sometext 3.142"));	//10.5
+		<br />
+		<br />
+		document.write(parseFloat(false));	//NaN
+		<br />
+		<br />
+	</code>
+
+	<script type="text/javascript">
+		document.write(21+22.00);	//43
+		document.write("<br />" + "<br />");
+
+		document.write(3.142);	//3.142
+		document.write("<br />" + "<br />");
+
+		document.write(1.6 + 1.6);	//3.2
+		document.write("<br />" + "<br />");
+
+		document.write(12.00 + 5.00);	//17.00
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat(10.00 + 5));	//15.00
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat(12 + 12));	//24
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat(5 + 3.1));	//12.5
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat("sometext3.142"));	//NaN
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat("12.5 + 12.3"));	//12.5
+		document.write("<br />" + "<br />");
+
+		document.write(parseFloat("10.5 sometext 3.142"));	//10.5
+		document.write("<br />" + "<br />");
+
+
+		document.write(parseFloat(false));	//NaN
+		document.write("<br />" + "<br />");
+
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
