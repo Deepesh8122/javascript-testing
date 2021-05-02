@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavScript Special Oprators</title>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write("<h2> JavScript Special Oprators </h2>");
+
+		document.write(typeof 5) //number
+		document.write("<br />")
+
+		document.write(typeof "String") //string
+		document.write("<br />")
+
+		document.write(typeof true) //boolean
+		document.write("<br />")
+
+		document.write(typeof undefined) //undefined
+		document.write("<br />")
+
+		document.write(typeof null) //null
+		document.write("<br />")
+
+		var student1 = new Object();
+		student1.name = "Deep";
+		student1.rollNum = "1";
+		document.write(student1.rollNum, " : ", student1.name); //Deep
+		document.write("<br />")
+		document.write("<br />")
+		delete student1.rollNum;
+		document.write(student1.rollNum, " : ", "student1.name");
+		document.write("<br />")
+		document.write("<br />")
+		document.write("<br />")
+		document.write("<br />")
+		document.write("<br />")
+
+		let schoolInfo = new Object();
+		schoolInfo.name="Komal Public Scool";
+		schoolInfo.regisNum= 321332;
+		schoolInfo.studentstent = 2000;
+		schoolInfo.addrss = "Village: Bhaddon, Ajmer, Rajasthan (305814)";
+		schoolInfo.isOpen = false;
+
+		document.write("School Name : ", schoolInfo.name);
+		document.write("<br />");
+		document.write("School Registernation Number : ", schoolInfo.regisNum);
+		document.write("<br />");
+		document.write("School Student Strength : ", schoolInfo.studentstent);
+		document.write("<br />");
+		document.write("School Address : ", schoolInfo.addrss);
+		document.write("<br />");
+		document.write("School is open now ? ", schoolInfo.isOpen);
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>
